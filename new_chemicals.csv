@@ -1,0 +1,6 @@
+index,Smiles,logD
+1,S(CC(=O)N1CCN(C(=O)c2occc2)CC1)c1n-2c(C(C)=Cc3c-2cc(C)c(C)c3)nn1,2.8
+2,Clc1ccc(CN2C(=O)C=C3C(=N2)CC[NH2+]CC3)cc1,1.1
+3,Fc1c(Nc2c(C(=O)N)cnc3c2cc(OC)c(OC)c3)cccc1,2.8099999
+4,Clc1c(-c2c3n(nc2)C=CC=C3)nc(Nc2c(C)n(C3CCN(CC(=O)N(C)C)CC3)nc2C)nc1,2.9000001
+5,O(Cc1c(C2Cn3c([nH+]cc3)C2)cccc1)C,1.8
