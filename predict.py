@@ -14,8 +14,9 @@ from utils import set_random_seed, collate_molgraphs, load_model
 '''
 In order to predict logD7.4 values for new chemicals, you should follow the following steps:
 
-First, fill in the SMILES string of the new chemical into the "Smiles" column of the "new_chemicals.csv" file.
-Second, assign a number to the compound in the "index" column.
+First, fill in the SMILES string of the new compound into the "Smiles" column of the "new_chemicals.csv" file.
+Second, assign a number in the "index" column to the compound, and then shut up the above file.
+Third, run this file.
 Finally, the prediction results will be saved to the "CX-AttentiveFP_prediction.csv" file in the "results" folder.
 '''
 
