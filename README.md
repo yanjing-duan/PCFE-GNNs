@@ -9,9 +9,9 @@ Pytorch implementation of “Improved GNNs for logD7.4 Prediction by Transferrin
 * pretrain: contain the codes for pre-training the three GNNs (GCN, GAT, and Attentive FP).
 * fine-tune: contain the codes for fine-tuning the three GNNs.
 * descriptor-based_models: contain the codes for training four descriptor-based models (XGBoost, SVM, GB, and RF).
-* data: data used for training models
-* weights: contain the weights of the cx-Attentive FP model.
-* predict: the code using the cx-Attentive FP model to predict logD7.4 for new chemicals and detailed information on how to obtain the predicted values are also provided in this file.
+* data: data used for training models, containing the 1.71 million computational logD data for pre-training the GNNs and the 19,155 experimental logD7.4 data for fine-tuning the GNNs. Additionally, the 206 MOE_2D descriptors were also included for training the descriptor-based models.
+* weights: contain the weights of the optimal cx-Attentive FP model.
+* application_domain_evaluation: containing the workflow file to judge whether the query compounds within the model’s application domain.
 
 
 
@@ -25,3 +25,4 @@ Pytorch implementation of “Improved GNNs for logD7.4 Prediction by Transferrin
 * openbabel 2.4.1
 * torch 1.7.0
 * DGL-LifeSci 0.2.6
+* the KNIME analysis platform 4.1.2
