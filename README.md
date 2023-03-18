@@ -11,7 +11,6 @@ Pytorch implementation of “Improved GNNs for logD7.4 Prediction by Transferrin
 * descriptor-based_models: contain the codes for training four descriptor-based models (XGBoost, SVM, GB, and RF).
 * data: data used for training models, containing the 1.71 million computational logD data for pre-training the GNNs and the 19,155 experimental logD7.4 data for fine-tuning the GNNs. Additionally, the 206 MOE_2D descriptors were also included for training the descriptor-based models.
 * weights: contain the weights of the optimal cx-Attentive FP model.
-* application_domain_evaluation: containing the workflow file to judge whether the query compounds within the model’s application domain.
 
 
 
@@ -25,4 +24,3 @@ Pytorch implementation of “Improved GNNs for logD7.4 Prediction by Transferrin
 * openbabel 2.4.1
 * torch 1.7.0
 * DGL-LifeSci 0.2.6
-* the KNIME analysis platform 4.1.2
